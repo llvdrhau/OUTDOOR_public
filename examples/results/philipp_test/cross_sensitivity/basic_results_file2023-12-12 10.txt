@@ -1,0 +1,1409 @@
+
+Run mode: cross-parameter sensitivity 
+Total run time 6.113016605377197 
+ 
+ 
+Identifier of Single run: (('product_price', 5000), 10.0, 'electricity_price', 15.0) 
+
+Basic results-------- 
+----------------------------  ----------------
+Objective Function            NPC
+Yearly product load           5000.0
+Solver run time               0.77 seconds
+Solver name                   gurobi
+Earnings Before Tax income    -2.837 Mil. Euro
+Net production costs          567.49 euro/ton
+Net production GHG emissions  0.89 CO2-eq/ton
+Net present FWD               1.77 H2O-eq/ton
+----------------------------  ----------------
+
+ 
+
+units-------- 
+------------------  --
+Objective Function  aa
+------------------  --
+
+ 
+
+Chosen technologies-------- 
+----  ------------------------
+5000  O2
+7000  Methanol
+8000  Waste water
+ 111  Process Water
+ 112  Fluegas
+ 113  Air
+ 114  Monoethanol amine
+ 301  Hydrogen-Dist
+1100  MEA CC - unit 1
+1110  MEA CC - unit 2
+1200  CO2 compressor
+2100  AEL
+2110  Hydrogen Compressor
+3100  MeOH SYN - Reactor
+3110  MeOH Flash separation
+3120  MeOH Destillation Column
+4000  Steam Generation
+----  ------------------------
+
+ 
+
+Economic results-------- 
+-------------------------------  -----
+CAPEX share                      50.61
+Raw material consumption share    1.25
+Operating and Maintanence share  21.26
+Electricity share                29.82
+Chilling share                    0
+Heat integration share           -0.49
+Waste treatment share             0.31
+Profits share                    -2.77
+-------------------------------  -----
+
+ 
+
+Capital costs shares-------- 
+------------------------  -----
+Heat pump                  2.72
+MEA CC - unit 2            7.88
+CO2 compressor             3.28
+AEL                       68.77
+Hydrogen Compressor        9.9
+MeOH SYN - Reactor         5.33
+MeOH Flash separation      1.98
+MeOH Destillation Column   0.92
+Steam Generation           1.94
+------------------------  -----
+
+ 
+
+Electricity demand shares-------- 
+--------------------------  -----
+Heatpump electricity share   5.1
+MEA CC - unit 2              0.15
+CO2 compressor               1.15
+AEL                         89.06
+Hydrogen Compressor          4.2
+MeOH SYN - Reactor           0.2
+MeOH Flash separation        0.14
+--------------------------  -----
+
+ 
+
+Heating and cooling-------- 
+--------------------------------------  ----
+Total heating demand                    0.9
+Total cooling demand                    4
+Total heat recovery                     0
+HP Steam produced                       0.1
+Internally used HP Steam                0
+High temperature heat pump heat supply  0.9
+Net heating demand                      0
+Net cooling demand                      3.46
+--------------------------------------  ----
+
+ 
+
+Green house gas emission shares-------- 
+------------------------------  -----
+Direct emissions                 1009
+Electricity                       790
+Heat                             -146
+Chilling                            0
+Plant building emissions            0
+Raw Materials / Carbon Capture   7401
+Avoided burden for byproducts   -4590
+------------------------------  -----
+
+ 
+
+Fresh water demand shares-------- 
+------------------------------------  ----
+Indirect demand from raw materials    8833
+Utilities (Electricity and chilling)     0
+Utilities (Heating)                      0
+Avoided burden from byproducds          -0
+------------------------------------  ----
+
+ 
+
+Energy data-------- 
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+heat         {1110: 0.8997250682057265}
+cooling      {1100: 0.8170326586828607, 1110: 0.34620027910290707, 1200: 0.7424632983868773, 2100: 1.1622775302608566, 2110: 0.2628626824419284, 3100: 0.1369668226500742, 3110: 0.05080897211823592, 3120: 0.4825744742359025}
+electricity  56401.41509510879
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+Mass flows-------- 
+------------  ----
+(301, 3100)   0.12
+(1100, 1110)  7.12
+(1110, 1200)  0.91
+(1200, 3100)  0.89
+(1200, 8000)  0.02
+(2100, 2110)  0.12
+(2100, 5000)  0.98
+(2110, 301)   0.12
+(3100, 3110)  1.01
+(3110, 3120)  0.98
+(3110, 4000)  0.03
+(3120, 7000)  0.63
+(3120, 8000)  0.36
+(112, 1100)   7.12
+(114, 1110)   0
+(111, 2100)   1.1
+(113, 4000)   0.23
+------------  ----
+
+ 
+Identifier of Single run: (('product_price', 5000), 10.0, 'electricity_price', 30.0) 
+
+Basic results-------- 
+----------------------------  ----------------
+Objective Function            NPC
+Yearly product load           5000.0
+Solver run time               0.68 seconds
+Solver name                   gurobi
+Earnings Before Tax income    -3.683 Mil. Euro
+Net production costs          736.69 euro/ton
+Net production GHG emissions  0.89 CO2-eq/ton
+Net present FWD               1.77 H2O-eq/ton
+----------------------------  ----------------
+
+ 
+
+units-------- 
+------------------  --
+Objective Function  aa
+------------------  --
+
+ 
+
+Chosen technologies-------- 
+----  ------------------------
+5000  O2
+7000  Methanol
+8000  Waste water
+ 111  Process Water
+ 112  Fluegas
+ 113  Air
+ 114  Monoethanol amine
+ 301  Hydrogen-Dist
+1100  MEA CC - unit 1
+1110  MEA CC - unit 2
+1200  CO2 compressor
+2100  AEL
+2110  Hydrogen Compressor
+3100  MeOH SYN - Reactor
+3110  MeOH Flash separation
+3120  MeOH Destillation Column
+4000  Steam Generation
+----  ------------------------
+
+ 
+
+Economic results-------- 
+-------------------------------  -----
+CAPEX share                      38.99
+Raw material consumption share    0.96
+Operating and Maintanence share  16.38
+Electricity share                45.94
+Chilling share                    0
+Heat integration share           -0.38
+Waste treatment share             0.24
+Profits share                    -2.13
+-------------------------------  -----
+
+ 
+
+Capital costs shares-------- 
+------------------------  -----
+Heat pump                  2.72
+MEA CC - unit 2            7.88
+CO2 compressor             3.28
+AEL                       68.77
+Hydrogen Compressor        9.9
+MeOH SYN - Reactor         5.33
+MeOH Flash separation      1.98
+MeOH Destillation Column   0.92
+Steam Generation           1.94
+------------------------  -----
+
+ 
+
+Electricity demand shares-------- 
+--------------------------  -----
+Heatpump electricity share   5.1
+MEA CC - unit 2              0.15
+CO2 compressor               1.15
+AEL                         89.06
+Hydrogen Compressor          4.2
+MeOH SYN - Reactor           0.2
+MeOH Flash separation        0.14
+--------------------------  -----
+
+ 
+
+Heating and cooling-------- 
+--------------------------------------  ----
+Total heating demand                    0.9
+Total cooling demand                    4
+Total heat recovery                     0
+HP Steam produced                       0.1
+Internally used HP Steam                0
+High temperature heat pump heat supply  0.9
+Net heating demand                      0
+Net cooling demand                      3.46
+--------------------------------------  ----
+
+ 
+
+Green house gas emission shares-------- 
+------------------------------  -----
+Direct emissions                 1009
+Electricity                       790
+Heat                             -146
+Chilling                            0
+Plant building emissions            0
+Raw Materials / Carbon Capture   7401
+Avoided burden for byproducts   -4590
+------------------------------  -----
+
+ 
+
+Fresh water demand shares-------- 
+------------------------------------  ----
+Indirect demand from raw materials    8833
+Utilities (Electricity and chilling)     0
+Utilities (Heating)                      0
+Avoided burden from byproducds          -0
+------------------------------------  ----
+
+ 
+
+Energy data-------- 
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+heat         {1110: 0.8997250682057265}
+cooling      {1100: 0.8170326586828607, 1110: 0.34620027910290707, 1200: 0.7424632983868773, 2100: 1.1622775302608566, 2110: 0.2628626824419284, 3100: 0.1369668226500742, 3110: 0.05080897211823592, 3120: 0.4825744742359025}
+electricity  56401.41509510879
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+Mass flows-------- 
+------------  ----
+(301, 3100)   0.12
+(1100, 1110)  7.12
+(1110, 1200)  0.91
+(1200, 3100)  0.89
+(1200, 8000)  0.02
+(2100, 2110)  0.12
+(2100, 5000)  0.98
+(2110, 301)   0.12
+(3100, 3110)  1.01
+(3110, 3120)  0.98
+(3110, 4000)  0.03
+(3120, 7000)  0.63
+(3120, 8000)  0.36
+(112, 1100)   7.12
+(114, 1110)   0
+(111, 2100)   1.1
+(113, 4000)   0.23
+------------  ----
+
+ 
+Identifier of Single run: (('product_price', 5000), 10.0, 'electricity_price', 45.0) 
+
+Basic results-------- 
+----------------------------  ----------------
+Objective Function            NPC
+Yearly product load           5000.0
+Solver run time               0.72 seconds
+Solver name                   gurobi
+Earnings Before Tax income    -4.529 Mil. Euro
+Net production costs          905.9 euro/ton
+Net production GHG emissions  0.89 CO2-eq/ton
+Net present FWD               1.77 H2O-eq/ton
+----------------------------  ----------------
+
+ 
+
+units-------- 
+------------------  --
+Objective Function  aa
+------------------  --
+
+ 
+
+Chosen technologies-------- 
+----  ------------------------
+5000  O2
+7000  Methanol
+8000  Waste water
+ 111  Process Water
+ 112  Fluegas
+ 113  Air
+ 114  Monoethanol amine
+ 301  Hydrogen-Dist
+1100  MEA CC - unit 1
+1110  MEA CC - unit 2
+1200  CO2 compressor
+2100  AEL
+2110  Hydrogen Compressor
+3100  MeOH SYN - Reactor
+3110  MeOH Flash separation
+3120  MeOH Destillation Column
+4000  Steam Generation
+----  ------------------------
+
+ 
+
+Economic results-------- 
+-------------------------------  -----
+CAPEX share                      31.71
+Raw material consumption share    0.78
+Operating and Maintanence share  13.32
+Electricity share                56.03
+Chilling share                    0
+Heat integration share           -0.31
+Waste treatment share             0.2
+Profits share                    -1.73
+-------------------------------  -----
+
+ 
+
+Capital costs shares-------- 
+------------------------  -----
+Heat pump                  2.72
+MEA CC - unit 2            7.88
+CO2 compressor             3.28
+AEL                       68.77
+Hydrogen Compressor        9.9
+MeOH SYN - Reactor         5.33
+MeOH Flash separation      1.98
+MeOH Destillation Column   0.92
+Steam Generation           1.94
+------------------------  -----
+
+ 
+
+Electricity demand shares-------- 
+--------------------------  -----
+Heatpump electricity share   5.1
+MEA CC - unit 2              0.15
+CO2 compressor               1.15
+AEL                         89.06
+Hydrogen Compressor          4.2
+MeOH SYN - Reactor           0.2
+MeOH Flash separation        0.14
+--------------------------  -----
+
+ 
+
+Heating and cooling-------- 
+--------------------------------------  ----
+Total heating demand                    0.9
+Total cooling demand                    4
+Total heat recovery                     0
+HP Steam produced                       0.1
+Internally used HP Steam                0
+High temperature heat pump heat supply  0.9
+Net heating demand                      0
+Net cooling demand                      3.46
+--------------------------------------  ----
+
+ 
+
+Green house gas emission shares-------- 
+------------------------------  -----
+Direct emissions                 1009
+Electricity                       790
+Heat                             -146
+Chilling                            0
+Plant building emissions            0
+Raw Materials / Carbon Capture   7401
+Avoided burden for byproducts   -4590
+------------------------------  -----
+
+ 
+
+Fresh water demand shares-------- 
+------------------------------------  ----
+Indirect demand from raw materials    8833
+Utilities (Electricity and chilling)     0
+Utilities (Heating)                      0
+Avoided burden from byproducds          -0
+------------------------------------  ----
+
+ 
+
+Energy data-------- 
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+heat         {1110: 0.8997250682057265}
+cooling      {1100: 0.8170326586828607, 1110: 0.34620027910290707, 1200: 0.7424632983868773, 2100: 1.1622775302608566, 2110: 0.2628626824419284, 3100: 0.1369668226500742, 3110: 0.05080897211823592, 3120: 0.4825744742359025}
+electricity  56401.41509510879
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+Mass flows-------- 
+------------  ----
+(301, 3100)   0.12
+(1100, 1110)  7.12
+(1110, 1200)  0.91
+(1200, 3100)  0.89
+(1200, 8000)  0.02
+(2100, 2110)  0.12
+(2100, 5000)  0.98
+(2110, 301)   0.12
+(3100, 3110)  1.01
+(3110, 3120)  0.98
+(3110, 4000)  0.03
+(3120, 7000)  0.63
+(3120, 8000)  0.36
+(112, 1100)   7.12
+(114, 1110)   0
+(111, 2100)   1.1
+(113, 4000)   0.23
+------------  ----
+
+ 
+Identifier of Single run: (('product_price', 5000), 30.0, 'electricity_price', 15.0) 
+
+Basic results-------- 
+----------------------------  ----------------
+Objective Function            NPC
+Yearly product load           5000.0
+Solver run time               0.61 seconds
+Solver name                   gurobi
+Earnings Before Tax income    -2.681 Mil. Euro
+Net production costs          536.1 euro/ton
+Net production GHG emissions  0.89 CO2-eq/ton
+Net present FWD               1.77 H2O-eq/ton
+----------------------------  ----------------
+
+ 
+
+units-------- 
+------------------  --
+Objective Function  aa
+------------------  --
+
+ 
+
+Chosen technologies-------- 
+----  ------------------------
+5000  O2
+7000  Methanol
+8000  Waste water
+ 111  Process Water
+ 112  Fluegas
+ 113  Air
+ 114  Monoethanol amine
+ 301  Hydrogen-Dist
+1100  MEA CC - unit 1
+1110  MEA CC - unit 2
+1200  CO2 compressor
+2100  AEL
+2110  Hydrogen Compressor
+3100  MeOH SYN - Reactor
+3110  MeOH Flash separation
+3120  MeOH Destillation Column
+4000  Steam Generation
+----  ------------------------
+
+ 
+
+Economic results-------- 
+-------------------------------  -----
+CAPEX share                      53.58
+Raw material consumption share    1.32
+Operating and Maintanence share  22.5
+Electricity share                31.56
+Chilling share                    0
+Heat integration share           -0.52
+Waste treatment share             0.33
+Profits share                    -8.78
+-------------------------------  -----
+
+ 
+
+Capital costs shares-------- 
+------------------------  -----
+Heat pump                  2.72
+MEA CC - unit 2            7.88
+CO2 compressor             3.28
+AEL                       68.77
+Hydrogen Compressor        9.9
+MeOH SYN - Reactor         5.33
+MeOH Flash separation      1.98
+MeOH Destillation Column   0.92
+Steam Generation           1.94
+------------------------  -----
+
+ 
+
+Electricity demand shares-------- 
+--------------------------  -----
+Heatpump electricity share   5.1
+MEA CC - unit 2              0.15
+CO2 compressor               1.15
+AEL                         89.06
+Hydrogen Compressor          4.2
+MeOH SYN - Reactor           0.2
+MeOH Flash separation        0.14
+--------------------------  -----
+
+ 
+
+Heating and cooling-------- 
+--------------------------------------  ----
+Total heating demand                    0.9
+Total cooling demand                    4
+Total heat recovery                     0
+HP Steam produced                       0.1
+Internally used HP Steam                0
+High temperature heat pump heat supply  0.9
+Net heating demand                      0
+Net cooling demand                      3.46
+--------------------------------------  ----
+
+ 
+
+Green house gas emission shares-------- 
+------------------------------  -----
+Direct emissions                 1009
+Electricity                       790
+Heat                             -146
+Chilling                            0
+Plant building emissions            0
+Raw Materials / Carbon Capture   7401
+Avoided burden for byproducts   -4590
+------------------------------  -----
+
+ 
+
+Fresh water demand shares-------- 
+------------------------------------  ----
+Indirect demand from raw materials    8833
+Utilities (Electricity and chilling)     0
+Utilities (Heating)                      0
+Avoided burden from byproducds          -0
+------------------------------------  ----
+
+ 
+
+Energy data-------- 
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+heat         {1110: 0.8997250682057265}
+cooling      {1100: 0.8170326586828607, 1110: 0.34620027910290707, 1200: 0.7424632983868773, 2100: 1.1622775302608566, 2110: 0.2628626824419284, 3100: 0.1369668226500742, 3110: 0.05080897211823592, 3120: 0.4825744742359025}
+electricity  56401.41509510879
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+Mass flows-------- 
+------------  ----
+(301, 3100)   0.12
+(1100, 1110)  7.12
+(1110, 1200)  0.91
+(1200, 3100)  0.89
+(1200, 8000)  0.02
+(2100, 2110)  0.12
+(2100, 5000)  0.98
+(2110, 301)   0.12
+(3100, 3110)  1.01
+(3110, 3120)  0.98
+(3110, 4000)  0.03
+(3120, 7000)  0.63
+(3120, 8000)  0.36
+(112, 1100)   7.12
+(114, 1110)   0
+(111, 2100)   1.1
+(113, 4000)   0.23
+------------  ----
+
+ 
+Identifier of Single run: (('product_price', 5000), 30.0, 'electricity_price', 30.0) 
+
+Basic results-------- 
+----------------------------  ----------------
+Objective Function            NPC
+Yearly product load           5000.0
+Solver run time               0.66 seconds
+Solver name                   gurobi
+Earnings Before Tax income    -3.527 Mil. Euro
+Net production costs          705.31 euro/ton
+Net production GHG emissions  0.89 CO2-eq/ton
+Net present FWD               1.77 H2O-eq/ton
+----------------------------  ----------------
+
+ 
+
+units-------- 
+------------------  --
+Objective Function  aa
+------------------  --
+
+ 
+
+Chosen technologies-------- 
+----  ------------------------
+5000  O2
+7000  Methanol
+8000  Waste water
+ 111  Process Water
+ 112  Fluegas
+ 113  Air
+ 114  Monoethanol amine
+ 301  Hydrogen-Dist
+1100  MEA CC - unit 1
+1110  MEA CC - unit 2
+1200  CO2 compressor
+2100  AEL
+2110  Hydrogen Compressor
+3100  MeOH SYN - Reactor
+3110  MeOH Flash separation
+3120  MeOH Destillation Column
+4000  Steam Generation
+----  ------------------------
+
+ 
+
+Economic results-------- 
+-------------------------------  -----
+CAPEX share                      40.72
+Raw material consumption share    1.01
+Operating and Maintanence share  17.1
+Electricity share                47.98
+Chilling share                    0
+Heat integration share           -0.39
+Waste treatment share             0.25
+Profits share                    -6.67
+-------------------------------  -----
+
+ 
+
+Capital costs shares-------- 
+------------------------  -----
+Heat pump                  2.72
+MEA CC - unit 2            7.88
+CO2 compressor             3.28
+AEL                       68.77
+Hydrogen Compressor        9.9
+MeOH SYN - Reactor         5.33
+MeOH Flash separation      1.98
+MeOH Destillation Column   0.92
+Steam Generation           1.94
+------------------------  -----
+
+ 
+
+Electricity demand shares-------- 
+--------------------------  -----
+Heatpump electricity share   5.1
+MEA CC - unit 2              0.15
+CO2 compressor               1.15
+AEL                         89.06
+Hydrogen Compressor          4.2
+MeOH SYN - Reactor           0.2
+MeOH Flash separation        0.14
+--------------------------  -----
+
+ 
+
+Heating and cooling-------- 
+--------------------------------------  ----
+Total heating demand                    0.9
+Total cooling demand                    4
+Total heat recovery                     0
+HP Steam produced                       0.1
+Internally used HP Steam                0
+High temperature heat pump heat supply  0.9
+Net heating demand                      0
+Net cooling demand                      3.46
+--------------------------------------  ----
+
+ 
+
+Green house gas emission shares-------- 
+------------------------------  -----
+Direct emissions                 1009
+Electricity                       790
+Heat                             -146
+Chilling                            0
+Plant building emissions            0
+Raw Materials / Carbon Capture   7401
+Avoided burden for byproducts   -4590
+------------------------------  -----
+
+ 
+
+Fresh water demand shares-------- 
+------------------------------------  ----
+Indirect demand from raw materials    8833
+Utilities (Electricity and chilling)     0
+Utilities (Heating)                      0
+Avoided burden from byproducds          -0
+------------------------------------  ----
+
+ 
+
+Energy data-------- 
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+heat         {1110: 0.8997250682057265}
+cooling      {1100: 0.8170326586828607, 1110: 0.34620027910290707, 1200: 0.7424632983868773, 2100: 1.1622775302608566, 2110: 0.2628626824419284, 3100: 0.1369668226500742, 3110: 0.05080897211823592, 3120: 0.4825744742359025}
+electricity  56401.41509510879
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+Mass flows-------- 
+------------  ----
+(301, 3100)   0.12
+(1100, 1110)  7.12
+(1110, 1200)  0.91
+(1200, 3100)  0.89
+(1200, 8000)  0.02
+(2100, 2110)  0.12
+(2100, 5000)  0.98
+(2110, 301)   0.12
+(3100, 3110)  1.01
+(3110, 3120)  0.98
+(3110, 4000)  0.03
+(3120, 7000)  0.63
+(3120, 8000)  0.36
+(112, 1100)   7.12
+(114, 1110)   0
+(111, 2100)   1.1
+(113, 4000)   0.23
+------------  ----
+
+ 
+Identifier of Single run: (('product_price', 5000), 30.0, 'electricity_price', 45.0) 
+
+Basic results-------- 
+----------------------------  ----------------
+Objective Function            NPC
+Yearly product load           5000.0
+Solver run time               0.61 seconds
+Solver name                   gurobi
+Earnings Before Tax income    -4.373 Mil. Euro
+Net production costs          874.51 euro/ton
+Net production GHG emissions  0.89 CO2-eq/ton
+Net present FWD               1.77 H2O-eq/ton
+----------------------------  ----------------
+
+ 
+
+units-------- 
+------------------  --
+Objective Function  aa
+------------------  --
+
+ 
+
+Chosen technologies-------- 
+----  ------------------------
+5000  O2
+7000  Methanol
+8000  Waste water
+ 111  Process Water
+ 112  Fluegas
+ 113  Air
+ 114  Monoethanol amine
+ 301  Hydrogen-Dist
+1100  MEA CC - unit 1
+1110  MEA CC - unit 2
+1200  CO2 compressor
+2100  AEL
+2110  Hydrogen Compressor
+3100  MeOH SYN - Reactor
+3110  MeOH Flash separation
+3120  MeOH Destillation Column
+4000  Steam Generation
+----  ------------------------
+
+ 
+
+Economic results-------- 
+-------------------------------  -----
+CAPEX share                      32.84
+Raw material consumption share    0.81
+Operating and Maintanence share  13.79
+Electricity share                58.05
+Chilling share                    0
+Heat integration share           -0.32
+Waste treatment share             0.2
+Profits share                    -5.38
+-------------------------------  -----
+
+ 
+
+Capital costs shares-------- 
+------------------------  -----
+Heat pump                  2.72
+MEA CC - unit 2            7.88
+CO2 compressor             3.28
+AEL                       68.77
+Hydrogen Compressor        9.9
+MeOH SYN - Reactor         5.33
+MeOH Flash separation      1.98
+MeOH Destillation Column   0.92
+Steam Generation           1.94
+------------------------  -----
+
+ 
+
+Electricity demand shares-------- 
+--------------------------  -----
+Heatpump electricity share   5.1
+MEA CC - unit 2              0.15
+CO2 compressor               1.15
+AEL                         89.06
+Hydrogen Compressor          4.2
+MeOH SYN - Reactor           0.2
+MeOH Flash separation        0.14
+--------------------------  -----
+
+ 
+
+Heating and cooling-------- 
+--------------------------------------  ----
+Total heating demand                    0.9
+Total cooling demand                    4
+Total heat recovery                     0
+HP Steam produced                       0.1
+Internally used HP Steam                0
+High temperature heat pump heat supply  0.9
+Net heating demand                      0
+Net cooling demand                      3.46
+--------------------------------------  ----
+
+ 
+
+Green house gas emission shares-------- 
+------------------------------  -----
+Direct emissions                 1009
+Electricity                       790
+Heat                             -146
+Chilling                            0
+Plant building emissions            0
+Raw Materials / Carbon Capture   7401
+Avoided burden for byproducts   -4590
+------------------------------  -----
+
+ 
+
+Fresh water demand shares-------- 
+------------------------------------  ----
+Indirect demand from raw materials    8833
+Utilities (Electricity and chilling)     0
+Utilities (Heating)                      0
+Avoided burden from byproducds          -0
+------------------------------------  ----
+
+ 
+
+Energy data-------- 
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+heat         {1110: 0.8997250682057265}
+cooling      {1100: 0.8170326586828607, 1110: 0.34620027910290707, 1200: 0.7424632983868773, 2100: 1.1622775302608566, 2110: 0.2628626824419284, 3100: 0.1369668226500742, 3110: 0.05080897211823592, 3120: 0.4825744742359025}
+electricity  56401.41509510879
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+Mass flows-------- 
+------------  ----
+(301, 3100)   0.12
+(1100, 1110)  7.12
+(1110, 1200)  0.91
+(1200, 3100)  0.89
+(1200, 8000)  0.02
+(2100, 2110)  0.12
+(2100, 5000)  0.98
+(2110, 301)   0.12
+(3100, 3110)  1.01
+(3110, 3120)  0.98
+(3110, 4000)  0.03
+(3120, 7000)  0.63
+(3120, 8000)  0.36
+(112, 1100)   7.12
+(114, 1110)   0
+(111, 2100)   1.1
+(113, 4000)   0.23
+------------  ----
+
+ 
+Identifier of Single run: (('product_price', 5000), 50.0, 'electricity_price', 15.0) 
+
+Basic results-------- 
+----------------------------  ----------------
+Objective Function            NPC
+Yearly product load           5000.0
+Solver run time               0.65 seconds
+Solver name                   gurobi
+Earnings Before Tax income    -2.524 Mil. Euro
+Net production costs          504.72 euro/ton
+Net production GHG emissions  0.89 CO2-eq/ton
+Net present FWD               1.77 H2O-eq/ton
+----------------------------  ----------------
+
+ 
+
+units-------- 
+------------------  --
+Objective Function  aa
+------------------  --
+
+ 
+
+Chosen technologies-------- 
+----  ------------------------
+5000  O2
+7000  Methanol
+8000  Waste water
+ 111  Process Water
+ 112  Fluegas
+ 113  Air
+ 114  Monoethanol amine
+ 301  Hydrogen-Dist
+1100  MEA CC - unit 1
+1110  MEA CC - unit 2
+1200  CO2 compressor
+2100  AEL
+2110  Hydrogen Compressor
+3100  MeOH SYN - Reactor
+3110  MeOH Flash separation
+3120  MeOH Destillation Column
+4000  Steam Generation
+----  ------------------------
+
+ 
+
+Economic results-------- 
+-------------------------------  ------
+CAPEX share                       56.91
+Raw material consumption share     1.41
+Operating and Maintanence share   23.9
+Electricity share                 33.52
+Chilling share                     0
+Heat integration share            -0.55
+Waste treatment share              0.35
+Profits share                    -15.55
+-------------------------------  ------
+
+ 
+
+Capital costs shares-------- 
+------------------------  -----
+Heat pump                  2.72
+MEA CC - unit 2            7.88
+CO2 compressor             3.28
+AEL                       68.77
+Hydrogen Compressor        9.9
+MeOH SYN - Reactor         5.33
+MeOH Flash separation      1.98
+MeOH Destillation Column   0.92
+Steam Generation           1.94
+------------------------  -----
+
+ 
+
+Electricity demand shares-------- 
+--------------------------  -----
+Heatpump electricity share   5.1
+MEA CC - unit 2              0.15
+CO2 compressor               1.15
+AEL                         89.06
+Hydrogen Compressor          4.2
+MeOH SYN - Reactor           0.2
+MeOH Flash separation        0.14
+--------------------------  -----
+
+ 
+
+Heating and cooling-------- 
+--------------------------------------  ----
+Total heating demand                    0.9
+Total cooling demand                    4
+Total heat recovery                     0
+HP Steam produced                       0.1
+Internally used HP Steam                0
+High temperature heat pump heat supply  0.9
+Net heating demand                      0
+Net cooling demand                      3.46
+--------------------------------------  ----
+
+ 
+
+Green house gas emission shares-------- 
+------------------------------  -----
+Direct emissions                 1009
+Electricity                       790
+Heat                             -146
+Chilling                            0
+Plant building emissions            0
+Raw Materials / Carbon Capture   7401
+Avoided burden for byproducts   -4590
+------------------------------  -----
+
+ 
+
+Fresh water demand shares-------- 
+------------------------------------  ----
+Indirect demand from raw materials    8833
+Utilities (Electricity and chilling)     0
+Utilities (Heating)                      0
+Avoided burden from byproducds          -0
+------------------------------------  ----
+
+ 
+
+Energy data-------- 
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+heat         {1110: 0.8997250682057265}
+cooling      {1100: 0.8170326586828607, 1110: 0.34620027910290707, 1200: 0.7424632983868773, 2100: 1.1622775302608566, 2110: 0.2628626824419284, 3100: 0.1369668226500742, 3110: 0.05080897211823592, 3120: 0.4825744742359025}
+electricity  56401.41509510879
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+Mass flows-------- 
+------------  ----
+(301, 3100)   0.12
+(1100, 1110)  7.12
+(1110, 1200)  0.91
+(1200, 3100)  0.89
+(1200, 8000)  0.02
+(2100, 2110)  0.12
+(2100, 5000)  0.98
+(2110, 301)   0.12
+(3100, 3110)  1.01
+(3110, 3120)  0.98
+(3110, 4000)  0.03
+(3120, 7000)  0.63
+(3120, 8000)  0.36
+(112, 1100)   7.12
+(114, 1110)   0
+(111, 2100)   1.1
+(113, 4000)   0.23
+------------  ----
+
+ 
+Identifier of Single run: (('product_price', 5000), 50.0, 'electricity_price', 30.0) 
+
+Basic results-------- 
+----------------------------  ---------------
+Objective Function            NPC
+Yearly product load           5000.0
+Solver run time               0.62 seconds
+Solver name                   gurobi
+Earnings Before Tax income    -3.37 Mil. Euro
+Net production costs          673.92 euro/ton
+Net production GHG emissions  0.89 CO2-eq/ton
+Net present FWD               1.77 H2O-eq/ton
+----------------------------  ---------------
+
+ 
+
+units-------- 
+------------------  --
+Objective Function  aa
+------------------  --
+
+ 
+
+Chosen technologies-------- 
+----  ------------------------
+5000  O2
+7000  Methanol
+8000  Waste water
+ 111  Process Water
+ 112  Fluegas
+ 113  Air
+ 114  Monoethanol amine
+ 301  Hydrogen-Dist
+1100  MEA CC - unit 1
+1110  MEA CC - unit 2
+1200  CO2 compressor
+2100  AEL
+2110  Hydrogen Compressor
+3100  MeOH SYN - Reactor
+3110  MeOH Flash separation
+3120  MeOH Destillation Column
+4000  Steam Generation
+----  ------------------------
+
+ 
+
+Economic results-------- 
+-------------------------------  ------
+CAPEX share                       42.62
+Raw material consumption share     1.05
+Operating and Maintanence share   17.9
+Electricity share                 50.21
+Chilling share                     0
+Heat integration share            -0.41
+Waste treatment share              0.26
+Profits share                    -11.64
+-------------------------------  ------
+
+ 
+
+Capital costs shares-------- 
+------------------------  -----
+Heat pump                  2.72
+MEA CC - unit 2            7.88
+CO2 compressor             3.28
+AEL                       68.77
+Hydrogen Compressor        9.9
+MeOH SYN - Reactor         5.33
+MeOH Flash separation      1.98
+MeOH Destillation Column   0.92
+Steam Generation           1.94
+------------------------  -----
+
+ 
+
+Electricity demand shares-------- 
+--------------------------  -----
+Heatpump electricity share   5.1
+MEA CC - unit 2              0.15
+CO2 compressor               1.15
+AEL                         89.06
+Hydrogen Compressor          4.2
+MeOH SYN - Reactor           0.2
+MeOH Flash separation        0.14
+--------------------------  -----
+
+ 
+
+Heating and cooling-------- 
+--------------------------------------  ----
+Total heating demand                    0.9
+Total cooling demand                    4
+Total heat recovery                     0
+HP Steam produced                       0.1
+Internally used HP Steam                0
+High temperature heat pump heat supply  0.9
+Net heating demand                      0
+Net cooling demand                      3.46
+--------------------------------------  ----
+
+ 
+
+Green house gas emission shares-------- 
+------------------------------  -----
+Direct emissions                 1009
+Electricity                       790
+Heat                             -146
+Chilling                            0
+Plant building emissions            0
+Raw Materials / Carbon Capture   7401
+Avoided burden for byproducts   -4590
+------------------------------  -----
+
+ 
+
+Fresh water demand shares-------- 
+------------------------------------  ----
+Indirect demand from raw materials    8833
+Utilities (Electricity and chilling)     0
+Utilities (Heating)                      0
+Avoided burden from byproducds          -0
+------------------------------------  ----
+
+ 
+
+Energy data-------- 
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+heat         {1110: 0.8997250682057265}
+cooling      {1100: 0.8170326586828607, 1110: 0.34620027910290707, 1200: 0.7424632983868773, 2100: 1.1622775302608566, 2110: 0.2628626824419284, 3100: 0.1369668226500742, 3110: 0.05080897211823592, 3120: 0.4825744742359025}
+electricity  56401.41509510879
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+Mass flows-------- 
+------------  ----
+(301, 3100)   0.12
+(1100, 1110)  7.12
+(1110, 1200)  0.91
+(1200, 3100)  0.89
+(1200, 8000)  0.02
+(2100, 2110)  0.12
+(2100, 5000)  0.98
+(2110, 301)   0.12
+(3100, 3110)  1.01
+(3110, 3120)  0.98
+(3110, 4000)  0.03
+(3120, 7000)  0.63
+(3120, 8000)  0.36
+(112, 1100)   7.12
+(114, 1110)   0
+(111, 2100)   1.1
+(113, 4000)   0.23
+------------  ----
+
+ 
+Identifier of Single run: (('product_price', 5000), 50.0, 'electricity_price', 45.0) 
+
+Basic results-------- 
+----------------------------  ----------------
+Objective Function            NPC
+Yearly product load           5000.0
+Solver run time               0.65 seconds
+Solver name                   gurobi
+Earnings Before Tax income    -4.216 Mil. Euro
+Net production costs          843.12 euro/ton
+Net production GHG emissions  0.89 CO2-eq/ton
+Net present FWD               1.77 H2O-eq/ton
+----------------------------  ----------------
+
+ 
+
+units-------- 
+------------------  --
+Objective Function  aa
+------------------  --
+
+ 
+
+Chosen technologies-------- 
+----  ------------------------
+5000  O2
+7000  Methanol
+8000  Waste water
+ 111  Process Water
+ 112  Fluegas
+ 113  Air
+ 114  Monoethanol amine
+ 301  Hydrogen-Dist
+1100  MEA CC - unit 1
+1110  MEA CC - unit 2
+1200  CO2 compressor
+2100  AEL
+2110  Hydrogen Compressor
+3100  MeOH SYN - Reactor
+3110  MeOH Flash separation
+3120  MeOH Destillation Column
+4000  Steam Generation
+----  ------------------------
+
+ 
+
+Economic results-------- 
+-------------------------------  -----
+CAPEX share                      34.07
+Raw material consumption share    0.84
+Operating and Maintanence share  14.31
+Electricity share                60.21
+Chilling share                    0
+Heat integration share           -0.33
+Waste treatment share             0.21
+Profits share                    -9.31
+-------------------------------  -----
+
+ 
+
+Capital costs shares-------- 
+------------------------  -----
+Heat pump                  2.72
+MEA CC - unit 2            7.88
+CO2 compressor             3.28
+AEL                       68.77
+Hydrogen Compressor        9.9
+MeOH SYN - Reactor         5.33
+MeOH Flash separation      1.98
+MeOH Destillation Column   0.92
+Steam Generation           1.94
+------------------------  -----
+
+ 
+
+Electricity demand shares-------- 
+--------------------------  -----
+Heatpump electricity share   5.1
+MEA CC - unit 2              0.15
+CO2 compressor               1.15
+AEL                         89.06
+Hydrogen Compressor          4.2
+MeOH SYN - Reactor           0.2
+MeOH Flash separation        0.14
+--------------------------  -----
+
+ 
+
+Heating and cooling-------- 
+--------------------------------------  ----
+Total heating demand                    0.9
+Total cooling demand                    4
+Total heat recovery                     0
+HP Steam produced                       0.1
+Internally used HP Steam                0
+High temperature heat pump heat supply  0.9
+Net heating demand                      0
+Net cooling demand                      3.46
+--------------------------------------  ----
+
+ 
+
+Green house gas emission shares-------- 
+------------------------------  -----
+Direct emissions                 1009
+Electricity                       790
+Heat                             -146
+Chilling                            0
+Plant building emissions            0
+Raw Materials / Carbon Capture   7401
+Avoided burden for byproducts   -4590
+------------------------------  -----
+
+ 
+
+Fresh water demand shares-------- 
+------------------------------------  ----
+Indirect demand from raw materials    8833
+Utilities (Electricity and chilling)     0
+Utilities (Heating)                      0
+Avoided burden from byproducds          -0
+------------------------------------  ----
+
+ 
+
+Energy data-------- 
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+heat         {1110: 0.8997250682057265}
+cooling      {1100: 0.8170326586828607, 1110: 0.34620027910290707, 1200: 0.7424632983868773, 2100: 1.1622775302608566, 2110: 0.2628626824419284, 3100: 0.1369668226500742, 3110: 0.05080897211823592, 3120: 0.4825744742359025}
+electricity  56401.41509510879
+-----------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+Mass flows-------- 
+------------  ----
+(301, 3100)   0.12
+(1100, 1110)  7.12
+(1110, 1200)  0.91
+(1200, 3100)  0.89
+(1200, 8000)  0.02
+(2100, 2110)  0.12
+(2100, 5000)  0.98
+(2110, 301)   0.12
+(3100, 3110)  1.01
+(3110, 3120)  0.98
+(3110, 4000)  0.03
+(3120, 7000)  0.63
+(3120, 8000)  0.36
+(112, 1100)   7.12
+(114, 1110)   0
+(111, 2100)   1.1
+(113, 4000)   0.23
+------------  ----
+
+ 

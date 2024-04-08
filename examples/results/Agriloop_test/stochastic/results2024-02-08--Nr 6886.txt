@@ -1,0 +1,53 @@
+
+Basic results-------- 
+----------------------------  -------------------------------------------------------------
+Objective Function            NPE_final
+Expected Objective value      2347.45 CO2-eq
+Average Yearly product load   664.24 tons
+VSS                           0 CO2-eq
+EVPI                          0 CO2-eq
+Solver run time               36.09 s
+Solver name                   gurobi
+Earnings Before Tax income    Min:-314693.12 Mean:-314692.96 Max:-314692.83 Mil Euros
+Net production costs          Min:411205484.52 Mean:476482380.91 Max:562196840.63 Euros/Ton
+Net production GHG emissions  Min:3.0 Mean:3.56 Max:4.28 CO2-eq/Ton
+Net present FWD               Min:0.0 Mean:0.0 Max:0.0 H2O-eq/Ton
+----------------------------  -------------------------------------------------------------
+
+ 
+
+Chosen technologies-------- 
+----  ------------------------
+1000  BioMass
+5000  Starch
+6000  PHA-Plastic
+  11  PotatoPeels
+ 888  PP splitter
+ 777  Gas splitter
+ 100  Grinding + sedimentation
+ 110  Drying pulp
+ 250  Spray drying milk
+ 600  PHB1 yield reactor
+ 200  Anaerobic Digest.
+ 310  Steam gen.
+----  ------------------------
+
+ 
+
+Scenario Analysis-------- 
+------------------------------  -------------------------
+Total Inital Scenarios          20
+Percent Feasible                100.0 %
+phi: (11, 'Proteins')           min:0.014 max:0.021
+phi: (11, 'Sugars')             min:0.018 max:0.038
+phi: (11, 'Phenolics')          min:0.01 max:0.033
+phi: (11, 'ash')                min:0.009 max:0.016
+phi: (11, 'Starch')             min:0.074 max:0.082
+myu: (220, 320, 'Phenolics')    min:0.025 max:0.093
+xi: (600, 'PHA')                min:0.361 max:0.439
+ProductPrice: (6000,)           min:1344.955 max:4063.773
+gamma: (240, 'Lactic Acid', 7)  min:0.325 max:0.471
+theta: (210, 1, 'Sugars')       min:0.473 max:1
+------------------------------  -------------------------
+
+ 
