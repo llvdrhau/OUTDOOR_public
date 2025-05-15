@@ -1,7 +1,7 @@
 # Hi you're probably looking for the interactive version of OUTDOOR
 Currently We're waiting to release the latest version of OUTDOOR until we have one of our works published (should be soon!). Make sure to check out my github profile https://github.com/llvdrhau for updates.
 
-We're also holding a training event in Santiago de Compostela with the latest version of the software! If you want to attend make sure you allpy before 25/05/2025 (Dead line has been extended). you can find more information in the file  [Flyer Event](./Flyer_Agriloop Training School.pdf).
+We're also holding a training event in Santiago de Compostela with the latest version of the software! If you want to attend make sure you allpy before 23/05/2025 (Deadline has been extended). you can find more information in the file [Flyer Event](.Flyer_Agriloop Training School.pdf).
 
 
 # OUTDOOR_public
