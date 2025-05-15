@@ -1,3 +1,9 @@
+# Hi Your probably looking for the interactive version of OUTDOOR
+Currently We're waiting to release the latest version of OUTDOOR until we have one of our works published. Make sure to check out my github profile https://github.com/llvdrhau for updates.
+
+We're also holding a training event in Santiago de Compostela with the latest version of the software! If you want to attend make sure you allpy before 25/05/2025 (Dead line has been extended). you can find more information in the file  [Flyer Event](Flyer_Agriloop Training School.pdf).
+
+
 # OUTDOOR_public
 This repo containts the superstructure modeling framework OUTDOOR developed by Phillip Kenkel (philipp.kenkel@arcelormittal.com) and updated by Lucas Van der Hauwaert (lucas.vanderhauwaert@usc.es)
 In the "examples" folder you can find 2 Lucas_small_example.py and Phillip_small_example.py.
